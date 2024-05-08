@@ -28,12 +28,28 @@ public class Customer {
         return webshopId;
     }
 
+    public String getName() {
+        return customerName;
+    }
+
+    public String getAddress() {
+        return customerAddress;
+    }
+
     public void setPayments(ArrayList<Payment> payments) {
         for (Payment payment : payments) {
             if (payment.getCustomerId() == customerId && payment.getWebshopId() == webshopId) {
                 this.payments.add(payment);
             }
         }
+    }
+
+    public double getTotalPurchases() {
+        double total = 0;
+        for (Payment payment : payments) {
+            total += payment.getAmount();
+        }
+        return total;
     }
 
 

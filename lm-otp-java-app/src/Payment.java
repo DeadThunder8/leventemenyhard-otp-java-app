@@ -19,11 +19,19 @@ public class Payment {
         this.paymentDate = paymentDate;
     }
 
+    public String toString() {
+        return "WebShop ID: " + webshopId + ", Customer ID: " + customerId + ", Payment Type: " + paymentType + ", Amount: " + amount + ", Account Number: " + accountNumber + ", Card Number: " + cardNumber + ", Payment Date: " + paymentDate;
+    }
+
     public int getWebshopId() {
         return webshopId;
     }
 
     public int getCustomerId() {
         return customerId;
+    }
+
+    public double getAmount() {
+        return amount;
     }
 }

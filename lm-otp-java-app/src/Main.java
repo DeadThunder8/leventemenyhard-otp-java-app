@@ -13,12 +13,10 @@ public class Main {
         ArrayList<Payment> payments = dataProcessor.getPayments();
 
         for (Customer customer : customers) {
-            System.out.println(customer);
+            customer.setPayments(payments);
         }
 
-        for (Payment payment : payments) {
-            System.out.println(payment);
-        }
-
+        Report.reportTotalPurchases(customers);
+        Report.selectTop2("report01.csv");
     }
 }
