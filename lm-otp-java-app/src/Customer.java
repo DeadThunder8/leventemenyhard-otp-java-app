@@ -1,26 +1,39 @@
+import java.util.ArrayList;
+
 public class Customer {
-    private String webshopId;
-    private String customerId;
+    private int webshopId;
+    private int customerId;
     private String customerName;
     private String customerAddress;
 
-    public Customer(String webshopId, String customerId, String customerName, String customerAddress) {
+    private ArrayList<Payment> payments;
+
+    public Customer(int webshopId, int customerId, String customerName, String customerAddress) {
         this.webshopId = webshopId;
         this.customerId = customerId;
         this.customerName = customerName;
         this.customerAddress = customerAddress;
+        this.payments = new ArrayList<>();
     }
 
     public String toString() {
         return "Customer ID: " + customerId + ", WebShop ID: " + webshopId + ", Name: " + customerName + ", Address: " + customerAddress;
     }
 
-    public String getCustomerId() {
+    public int getCustomerId() {
         return customerId;
     }
 
-    public String getWebshopId() {
+    public int getWebshopId() {
         return webshopId;
+    }
+
+    public void setPayments(ArrayList<Payment> payments) {
+        for (Payment payment : payments) {
+            if (payment.getCustomerId() == customerId && payment.getWebshopId() == webshopId) {
+                this.payments.add(payment);
+            }
+        }
     }
 
 

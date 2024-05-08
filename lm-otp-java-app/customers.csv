@@ -1,11 +1,15 @@
-WebShop1, CustomerID1, CustomerName1, CustomerAddress1
-WebShop1, CustomerID2, CustomerName2, CustomerAddress2
-WebShop2, CustomerID3, CustomerName3, CustomerAddress3
-WebShop2, CustomerID4, CustomerName4, CustomerAddress4
-WebShop2, CustomerID4, CustomerName4, CustomerAddress4
-WebShop2, CustomerID4, CustomerName4, CustomerAddress4
-WebShop1, CustomerID4, CustomerName4, CustomerAddress4
-WebShop1, CustomerID4, CustomerName4, CustomerAddress4
+This is a csv file for testing purposes.
+
+
+1,1,CustomerName1,CustomerAddress1
+1,2,CustomerName2,CustomerAddress2
+1,3,,CustomerAddress3
+1,4,CustomerName4,CustomerAddress4
+2,4,CustomerName4,CustomerAddress4
+2,4,CustomerName4,CustomerAddress4
+1,4,CustomerName4,CustomerAddress4
+WebShop1, 4, CustomerName4, CustomerAddress4
+WebShop1, CUSTOMER4, CustomerName4, CustomerAddress4
 
 sdafsddfgashjzbdnmzxbcnzx .z,sdmc, zxc nm gfhjg jkaj l;a
 dal;fjsdklfjklsd, , , ,fjksdjgfhjsg  ]sdffklsfl, ,,sdk

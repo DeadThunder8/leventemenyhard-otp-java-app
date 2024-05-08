@@ -1,0 +1,172 @@
+I can log anything
+This is a csv file for testing purposes.
+Data entry size is not 4. Read size: 1
+
+
+Data entry size is not 4. Read size: 1
+
+
+Data entry size is not 4. Read size: 1
+
+1,3,,CustomerAddress3
+Empty string found in data entry.
+
+2,4,CustomerName4,CustomerAddress4
+Customer already exists: Customer ID: 4, WebShop ID: 2, Name: CustomerName4, Address: CustomerAddress4
+
+1,4,CustomerName4,CustomerAddress4
+Customer already exists: Customer ID: 4, WebShop ID: 1, Name: CustomerName4, Address: CustomerAddress4
+
+WebShop1, 4, CustomerName4, CustomerAddress4
+For input string: "WebShop1"
+
+WebShop1, CUSTOMER4, CustomerName4, CustomerAddress4
+For input string: "WebShop1"
+
+
+Data entry size is not 4. Read size: 1
+
+sdafsddfgashjzbdnmzxbcnzx .z,sdmc, zxc nm gfhjg jkaj l;a
+Data entry size is not 4. Read size: 3
+
+dal;fjsdklfjklsd, , , ,fjksdjgfhjsg  ]sdffklsfl, ,,sdk
+Data entry size is not 4. Read size: 8
+
+
+Data entry size is not 4. Read size: 1
+
+
+Data entry size is not 4. Read size: 1
+
+
+Data entry size is not 4. Read size: 1
+
+
+Data entry size is not 4. Read size: 1
+
+
+Data entry size is not 4. Read size: 1
+
+
+Data entry size is not 4. Read size: 1
+
+fsklfhsjkhfkj sif
+Data entry size is not 4. Read size: 1
+
+'4
+Data entry size is not 4. Read size: 1
+
+iopuw89ry wrh nfkm,nfnmsbnf
+Data entry size is not 4. Read size: 2
+
+fsl;jfjksbhjk
+Data entry size is not 4. Read size: 1
+
+
+Data entry size is not 4. Read size: 1
+
+ksdh khsfjkh fui
+Data entry size is not 4. Read size: 1
+
+sdfkl if
+Data entry size is not 4. Read size: 1
+
+
+Data entry size is not 4. Read size: 1
+
+fdfisfhuiegruigryug dsbmnsdf
+Data entry size is not 4. Read size: 1
+
+smfjksbdjkbs
+Data entry size is not 4. Read size: 1
+
+
+Data entry size is not 4. Read size: 1
+
+fkfjgigyugrugwermnmsdbfnmsbdfnmfbnmbfdnmsbnmsd
+Data entry size is not 4. Read size: 1
+
+
+Data entry size is not 4. Read size: 1
+
+This is a csv file for testing purposes.
+Data entry size is not 7. Read size: 1
+
+
+Data entry size is not 7. Read size: 1
+
+
+Data entry size is not 7. Read size: 1
+
+1,4,card,2050,1234567811112334,,01/05/2024
+Card number is missing for payment type CARD.
+
+2,5,transfer,234,,1234567811112334,01/05/2024
+Account number is missing for payment type TRANSFER.
+
+
+Data entry size is not 7. Read size: 1
+
+nsdhjkfasdghvcnmzxbcnmzxgcyhjkasdgf,s,fsd,fsdfsdfhsdfksdhfsd,v,,,cvxchvhjgejhg
+Data entry size is not 7. Read size: 8
+
+fiwegyug fuis fuishfjksh fjk sdfk  s
+Data entry size is not 7. Read size: 1
+
+sd,sd,fsdjfhskjfksfs
+Data entry size is not 7. Read size: 3
+
+f
+Data entry size is not 7. Read size: 1
+
+sdf fuiws uifs
+Data entry size is not 7. Read size: 1
+
+
+Data entry size is not 7. Read size: 1
+
+
+Data entry size is not 7. Read size: 1
+
+
+Data entry size is not 7. Read size: 1
+
+
+Data entry size is not 7. Read size: 1
+
+fl;sjfjkshfyuitgweryuiwkjfsf
+Data entry size is not 7. Read size: 1
+
+f
+Data entry size is not 7. Read size: 1
+
+;
+Data entry size is not 7. Read size: 1
+
+f;;;fsdlsdvbfnmsfs
+Data entry size is not 7. Read size: 1
+
+fls'fls'd;flsf
+Data entry size is not 7. Read size: 1
+
+s
+Data entry size is not 7. Read size: 1
+
+
+Data entry size is not 7. Read size: 1
+
+
+Data entry size is not 7. Read size: 1
+
+fsdkjsjkhfshjkgfyuis 67i 678t 78yioer23 78y 89tuiragh nuiopay90 uGBKLGA
+Data entry size is not 7. Read size: 1
+
+
+Data entry size is not 7. Read size: 1
+
+1,1,DHJKSGFYUTFUY,hdfjksfuisd,sbgfhjsgdfhj,fsdjhfgshjdfgjhsf,1111111111111
+No enum constant PaymentType.DHJKSGFYUTFUY
+
+
+Data entry size is not 7. Read size: 1
+

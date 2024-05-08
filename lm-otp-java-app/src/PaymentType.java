@@ -1,4 +1,4 @@
 public enum PaymentType {
-    CARD,
-    TRANSFER
+    card,
+    transfer
 }

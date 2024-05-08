@@ -2,7 +2,7 @@ import java.io.File;
 import java.io.IOException;
 
 public class Logger {
-    private static String logPath = "applications.log";
+    private static String logPath = "application.log";
 
     public static void log(String message) {
         try {
