@@ -11,6 +11,18 @@ public class Customer {
         this.customerAddress = customerAddress;
     }
 
+    public String toString() {
+        return "Customer ID: " + customerId + ", WebShop ID: " + webshopId + ", Name: " + customerName + ", Address: " + customerAddress;
+    }
+
+    public String getCustomerId() {
+        return customerId;
+    }
+
+    public String getWebshopId() {
+        return webshopId;
+    }
+
 
 
 
