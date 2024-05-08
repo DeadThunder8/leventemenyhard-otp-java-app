@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
 
-
-        // Code starts here
+        // Test logging feature
+        Logger.log("I can log anything");
 
     }
 }
