@@ -34,4 +34,8 @@ public class Payment {
     public double getAmount() {
         return amount;
     }
+
+    public PaymentType getType() {
+        return paymentType;
+    }
 }

@@ -2,10 +2,6 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-
-        // Test logging feature
-        Logger.log("I can log anything");
-
         DataProcessor dataProcessor = new DataProcessor("./customers.csv", "./payments.csv");
 
         ArrayList<Customer> customers = dataProcessor.getCustomers();
@@ -18,5 +14,7 @@ public class Main {
 
         Report.reportTotalPurchases(customers);
         Report.selectTop2("report01.csv");
+        System.out.println(payments);
+        Report.reportTotalIncome(payments, "report02.csv");
     }
 }
